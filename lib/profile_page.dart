@@ -162,7 +162,7 @@ class ProfileInfo extends StatelessWidget {
 //            borderRadius: BorderRadius.circular(40),
           shape: BoxShape.circle,
           image: DecorationImage(
-            image: AssetImage("ab.jpeg"),
+            image: NetworkImage('https://media-exp1.licdn.com/dms/image/C5603AQF929KxJBewxQ/profile-displayphoto-shrink_200_200/0?e=1595462400&v=beta&t=zFaPHTU5k60Cq5Z34GRBag2-oZ6M7bKRZPk-5UJqawQ'),
             alignment: Alignment.center,
             fit: BoxFit.cover,
           ),
@@ -179,7 +179,7 @@ class ProfileInfo extends StatelessWidget {
       ),
       Text(
         "Ashwin\nBicholiya",
-        textScaleFactor: 5,
+        textScaleFactor: 3,
         style: TextStyle(
           color: Colors.white,
           fontWeight: FontWeight.bold,
